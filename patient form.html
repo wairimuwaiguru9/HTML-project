@@ -1,0 +1,57 @@
+<html>
+    <style>
+        body{background_ color:Yellow;
+        }
+        h1{ colour:blue;
+        background:pink;
+        }
+    </style>
+<head>
+    <title>Patient's registration</title>
+</head>
+<body>
+<form action="register.php" method="post">
+    <label for="full_name">Full Name:</label>
+    <input type="text" id="full_name" name="full_name" required><br><br>
+    
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required><br><br>
+    
+    <label for="gender">Gender:</label>
+    <input type="radio" id="gender" name="gender"required >Female 
+    <input type="radio" id="gender" name="gender" required> Male<br><br>
+    
+    <label for="id_number">ID Number:</label>
+    <input type="text" id="id_number" name="id_number" required><br><br>
+    
+    <label for="patient_id">Patient's ID:</label>
+    <input type="text" id="patient_id" name="patient_id" required><br><br>
+    
+    <label for="phone_number">Phone Number:</label>
+    <input type="text" id="phone_number" name="phone_number" required><br><br>
+    
+    <label>Any disability?:</label>
+<input type="radio" id="disability_yes" name="health_status" value="yes" required> Yes
+<input type="radio" id="disability_no" name="health_status" value="no" required> No <br><br>
+    
+    <label for="describe_disability">Describe disability if any:</label>
+    <input type="checkbox" id="describe_disability" name="describe_disability"><br><br>
+    
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" required><br><br>
+    
+    <label>Marital Status:</label>
+    <input type="radio" id="marital_status" name="marital_status" required> Single
+    <input type="radio" name="marital_status" required> Married
+    <input type="radio" name="marital_status" required> Prefer not to say<br><br>
+    
+    <label for="next_of_kin">Next of Kin:</label>
+    <input type="text" id="next_of_kin" name="next_of_kin" required><br><br>
+    
+    <label for="weight">Weight:</label>
+    <input type="number" id="weight" name="weight" required><br><br>
+    
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
